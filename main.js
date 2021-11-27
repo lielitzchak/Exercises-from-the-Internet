@@ -9,4 +9,23 @@
 // }
 // getMiddle("liel");
 
-function minAndMax() {}
+// function minAndMax() {}
+
+
+
+// השלם את הפתרון כך שיחזיר אמת אם הארגומנט (מחרוזת)
+//  הראשון שהועבר בסופו של הארגומנט השני (גם מחרוזת).
+let str = "el";
+const arr = ["belar","liel","mosh", "daniel", "omer","benel"];
+
+function solution(str, arr) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].includes(str)) {
+      console.log(arr[i]);
+    }
+  }
+}
+
+solution(str, arr);
+
+// Array.prototype.includes()
